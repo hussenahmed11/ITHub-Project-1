@@ -1,0 +1,61 @@
+/* Navbar */
+#mainNav {
+  background-color: #212529;
+  padding: 1rem 0;
+}
+
+#mainNav .navbar-brand {
+  font-weight: bold;
+  color: #ffc800;
+}
+
+#mainNav .navbar-nav .nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+#mainNav .navbar-nav .nav-link:hover {
+  color: #ffc800;
+}
+
+/* Header Section */
+header.masthead {
+  background-image: url('../images/header/header-bg.jpg'); /* your local image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 700px; /* shorter height for header */
+  display: flex;
+  align-items: center; /* vertical center */
+  justify-content: center;
+  text-align: center;
+  padding: 0 1rem; /* some horizontal padding */
+}
+
+header.masthead .masthead-subheading {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+header.masthead .masthead-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #ffc800;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 0.7rem 1.5rem;
+  font-size: 0.9rem;
+}
+
+.btn-primary:hover {
+  background-color: #ffda33;
+}
